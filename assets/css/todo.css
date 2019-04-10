@@ -1,0 +1,16 @@
+body { background-image: url("../../assets/img/fond.jpg"); background-size: cover; }
+
+.todo form { background-color: rgba(255, 255, 255, 0.8); text-align: center; }
+
+.todo form h1 { font-size: 40px; text-decoration: underline; }
+
+.todo form h2 { font-size: 30px; text-decoration: underline; }
+
+.todo form p { font-size: 20px; }
+
+.todo .archiver { margin: 10px 20% 0 20%; height: 400px; overflow: auto; }
+
+.todo .archiver .fait { -webkit-text-decoration-line: line-through; text-decoration-line: line-through; color: grey; }
+
+.todo .add { margin: 3% 20% 0 20%; padding: 2px 0; }
+/*# sourceMappingURL=todo.css.map */

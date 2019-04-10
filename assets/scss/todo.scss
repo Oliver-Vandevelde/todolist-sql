@@ -1,0 +1,34 @@
+body{
+    background-image: url("../../assets/img/fond.jpg");
+    background-size: cover;
+}
+.todo{
+    form{
+        background-color: rgba(255, 255, 255,0.8);
+        text-align: center;
+        h1{
+            font-size: 40px;
+            text-decoration: underline ;
+        }
+        h2{
+            font-size: 30px;
+            text-decoration: underline;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .archiver{
+        margin: 10px 20% 0 20%;
+        height: 400px;
+        overflow: auto;
+        .fait{
+            text-decoration-line: line-through;
+            color:grey;
+        }
+    }
+    .add{
+        margin: 3% 20% 0 20%;
+        padding: 2px 0;
+    }
+}
